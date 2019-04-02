@@ -20,6 +20,7 @@ public class CombinationZero {
 	// 5의 배수는 범위/5 몫 이 5보다 작을때까지 나누고5 몫을 다더한 값이 범위내의 2의 배수 개수임
 	
 	// nCr = n!/r!(n-r)!
+	// 소인수 분해 해서 해당 수의 약분 
 	// n! 5의갯수 - (r!5의갯수 + n-r!5의 갯수)
 	
 	public static void main(String[] args) {

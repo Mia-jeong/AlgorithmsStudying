@@ -1,9 +1,7 @@
-import java.util.Scanner;
-
 public class QuickSort extends SortParent {
 	//원소를 하나 정하여 (pivot) 해당 원소보다 작은 수 와 큰수들을 나눈다. 
 	public static void main(String[] args) {
-		int arr[] = input()
+		int arr[] = input();
 		quickSort(arr, 0, arr.length-1);
 		
 		print(arr);
