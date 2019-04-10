@@ -10,11 +10,12 @@ public class MinimunSqure {
 		if( n> 0) {
 			storages[1] = 1;
 			
-			for (int i = 2; i < storages.length; i++) {
-	
-				int temp = (int) Math.floor(Math.sqrt(i));
-				storages[i] = 1 + storages[(i- (temp*temp))];
-				System.out.println(storages[i]);
+			for (int i = 2; i <= n; i++) {
+			   int temp = (int) Math.sqrt(i);
+		       for (int sqrt = 1; sqrt<= temp; sqrt++){
+		            if (storages[i] == 0 ||storages[i] > storages[i - sqrt*sqrt] + 1) //just in case 
+		            	storages[i] = storages[i - sqrt*sqrt] + 1;
+		       }
 			}
 
 		}

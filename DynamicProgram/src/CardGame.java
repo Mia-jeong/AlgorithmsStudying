@@ -1,5 +1,14 @@
 import java.util.Scanner;
 
+
+/*
+ * 
+<input>
+6
+1 3 5 2 7 3
+<output>
+18
+ */
 public class CardGame {
 
 	public static void main(String[] args) {

@@ -1,5 +1,23 @@
 import java.util.Scanner;
 
+/*
+<input>
+5 5 3
+ 1 -2 3 2 8
+-8 -9 3 4 5
+ 2 4 7 8 2
+ 1 4 3 1 4
+-1 2 5 -6 3
+1 2 3 4
+0 0 1 1
+2 0 2 1
+
+<output>
+
+37
+-18
+6
+*/
 public class SqureSum {
 
 	public static void main(String[] args) {

@@ -1,5 +1,27 @@
 import java.util.Scanner;
 
+
+/*
+Jack and tom play a marble game, the rules are below
+1) they take marbles away in turn, the starter is Jack
+2) when they take marbles away, the can have it on range from 1 to 3 at one time.
+3) when it's your turn, if there're nothing to take away, you lose
+
+you can play it with n of marbles
+if Jack can win, print out YES
+if not, NO
+
+when they play a game, they'll do their best
+<input>
+3
+<output>
+YES
+
+<input>
+191124
+<output>
+NO
+*/
 public class MarbleGame {
 
 	public static void main(String[] args) {

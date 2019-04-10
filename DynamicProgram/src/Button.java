@@ -1,5 +1,15 @@
 import java.util.Scanner;
 
+/*
+<input>
+3
+27 8 28
+18 36 40
+7 20 8
+<output>
+87
+
+*/
 public class Button {
 
 
