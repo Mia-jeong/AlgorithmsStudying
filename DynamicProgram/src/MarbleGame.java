@@ -7,7 +7,7 @@ Jack and tom play a marble game, the rules are below
 2) when they take marbles away, the can have it on range from 1 to 3 at one time.
 3) when it's your turn, if there're nothing to take away, you lose
 
-you can play it with n of marbles
+you can play it with given n of marbles
 if Jack can win, print out YES
 if not, NO
 
